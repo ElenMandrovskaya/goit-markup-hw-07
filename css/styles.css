@@ -224,7 +224,7 @@ textarea {
 .advantage__item:not(:last-child) {
   margin-right: 30px;
 }
-.advantage__item-title {
+.advantage-item__title {
   margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
@@ -233,7 +233,7 @@ textarea {
   text-transform: uppercase;
   color: var(--primary-text-color);
 }
-.advantage__item-description {
+.advantage-item__description {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;

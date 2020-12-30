@@ -26,11 +26,12 @@
   border-radius: 4px;
 
   transition: color var(--timing-fn), border-color var(--timing-fn);
-}
-.clients__link:hover,
-.clients__link:focus {
-  color: var(--accent-text-color);
-  border-color: var(--accent-text-color);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-text-color);
+    border-color: var(--accent-text-color);
+  }
 }
 .clients__logo {
   fill: currentColor;
