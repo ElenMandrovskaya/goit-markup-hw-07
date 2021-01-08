@@ -219,7 +219,7 @@ textarea {
   background: #2f303a;
 }
 
-.footer.container {
+.footer .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -252,7 +252,6 @@ textarea {
   color: var(--reserve-text-color);
 }
 
-/* =====footer social links======= */
 .footer__social {
   margin-left: 70px;
 }
@@ -306,24 +305,10 @@ textarea {
   fill: currentColor;
 }
 
-/* ======== subscription ========= */
 .subscription {
   display: block;
   margin-left: 93px;
   width: 570px;
-}
-
-.subscription__btn {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-left: 12px;
 }
 
 .subscription-btn__icon {
@@ -338,6 +323,7 @@ textarea {
 }
 
 .subscription__input {
+  margin-right: 12px;
   padding: 15px 16px;
   min-width: 358px;
   min-height: 50px;
@@ -386,7 +372,15 @@ textarea {
 .hero__btn,
 .subscription__btn,
 .modal-form__btn {
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: 0 auto;
   padding: 10px 0;
   min-width: 200px;
@@ -474,7 +468,6 @@ textarea {
           transform: translate(-50%, -50%) scale(0);
 }
 
-/* ====== form ====== */
 .modal-form__title {
   display: block;
   margin-bottom: 12px;
@@ -498,7 +491,7 @@ textarea {
   margin-bottom: 10px;
 }
 
-.modal-form__field.comment {
+.modal-form__field .comment {
   margin-bottom: 20px;
 }
 
@@ -526,41 +519,41 @@ textarea {
   outline: none;
 }
 
-.modal-form__input.textarea {
-  height: 120px;
-  padding: 12px 16px;
-}
-
-.modal-form__input.textarea::-webkit-input-placeholder {
-  font-size: 12px;
-  line-height: 1.16;
-  letter-spacing: 0.01em;
-  color: rgba(117, 117, 117, 0.5);
-}
-
-.modal-form__input.textarea:-ms-input-placeholder {
-  font-size: 12px;
-  line-height: 1.16;
-  letter-spacing: 0.01em;
-  color: rgba(117, 117, 117, 0.5);
-}
-
-.modal-form__input.textarea::-ms-input-placeholder {
-  font-size: 12px;
-  line-height: 1.16;
-  letter-spacing: 0.01em;
-  color: rgba(117, 117, 117, 0.5);
-}
-
-.modal-form__input.textarea::placeholder {
-  font-size: 12px;
-  line-height: 1.16;
-  letter-spacing: 0.01em;
-  color: rgba(117, 117, 117, 0.5);
-}
-
 .modal-form__input:focus + .modal-form__icon {
   fill: var(--accent-text-color);
+}
+
+.modal-form__input .textarea::-webkit-input-placeholder {
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+  color: rgba(117, 117, 117, 0.5);
+}
+
+.modal-form__input .textarea:-ms-input-placeholder {
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+  color: rgba(117, 117, 117, 0.5);
+}
+
+.modal-form__input .textarea::-ms-input-placeholder {
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+  color: rgba(117, 117, 117, 0.5);
+}
+
+.modal-form__input .textarea::placeholder {
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+  color: rgba(117, 117, 117, 0.5);
+}
+
+.textarea {
+  height: 120px;
+  padding: 12px 16px;
 }
 
 .modal-form__icon {
@@ -660,7 +653,7 @@ textarea {
   margin-bottom: 30px;
 }
 
-.advantage.container {
+.advantage .container {
   padding-top: 94px;
 }
 
@@ -702,17 +695,17 @@ textarea {
   color: var(--secondary-text-color);
 }
 
-.advantage-image__icon {
-  width: 70px;
-  height: 70px;
-}
-
 .advantage__image {
   margin-bottom: 30px;
   padding: 25px 100px;
   height: 120px;
   background-color: #f5f4fa;
   border-radius: 4px;
+}
+
+.advantage-image__icon {
+  width: 70px;
+  height: 70px;
 }
 
 .services__list {

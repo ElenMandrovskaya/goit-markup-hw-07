@@ -1,7 +1,9 @@
 .hero__btn,
 .subscription__btn,
 .modal-form__btn {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 0 auto;
   padding: 10px 0;
   min-width: 200px;

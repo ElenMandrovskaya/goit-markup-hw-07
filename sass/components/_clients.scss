@@ -3,8 +3,10 @@
   align-items: flex-start;
   justify-content: space-between;
 }
-.clients__item:not(:last-child) {
-  margin-right: 30px;
+.clients__item {
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 .clients__title {
   margin-bottom: 50px;

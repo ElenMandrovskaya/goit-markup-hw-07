@@ -2,7 +2,7 @@
   padding-top: 60px;
   padding-bottom: 60px;
   background: #2f303a;
-  &.container {
+  .container {
     display: flex;
     justify-self: start;
     align-items: baseline;
@@ -22,14 +22,11 @@
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-}
-.footer-address__link {
   &.map {
     color: var(--reserve-text-color);
   }
 }
 
-/* =====footer social links======= */
 .footer__social {
   margin-left: 70px;
 }
@@ -65,21 +62,14 @@
     background-color: var(--accent-text-color);
   }
 }
-
 .footer-social__logo {
   fill: currentColor;
 }
-/* ======== subscription ========= */
+
 .subscription {
   display: block;
   margin-left: 93px;
   width: 570px;
-}
-.subscription__btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: 12px;
 }
 .subscription-btn__icon {
   margin-left: 10px;
@@ -89,6 +79,7 @@
   display: flex;
 }
 .subscription__input {
+  margin-right: 12px;
   padding: 15px 16px;
   min-width: 358px;
   min-height: 50px;
@@ -98,6 +89,7 @@
   background-color: transparent;
   color: #ffffff;
   transition: outline var(--timing-fn);
+
   &:focus {
     outline: 1px solid var(--accent-text-color);
   }
