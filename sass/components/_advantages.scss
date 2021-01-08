@@ -4,13 +4,11 @@
   }
 }
 .advantage__list {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
+  @include flex(space-between, flex-start);
 }
 .advantage__item {
   min-width: 270px;
-  & :not(:last-child) {
+  &:not(:last-child) {
     margin-right: 30px;
   }
 }

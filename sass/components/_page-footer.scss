@@ -3,9 +3,7 @@
   padding-bottom: 60px;
   background: #2f303a;
   .container {
-    display: flex;
-    justify-self: start;
-    align-items: baseline;
+    @include flex(start, baseline);
   }
 }
 .footer__wrap {
@@ -47,9 +45,7 @@
   width: 206px;
 }
 .footer-social__link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flex(center, center);
   width: 44px;
   height: 44px;
   border-radius: 50%;

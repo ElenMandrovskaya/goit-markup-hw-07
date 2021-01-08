@@ -1,9 +1,7 @@
 .hero__btn,
 .subscription__btn,
 .modal-form__btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flex(center, center);
   margin: 0 auto;
   padding: 10px 0;
   min-width: 200px;
@@ -25,9 +23,7 @@
   top: 8px;
   right: 8px;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flex(center, center);
 
   cursor: pointer;
   width: 30px;

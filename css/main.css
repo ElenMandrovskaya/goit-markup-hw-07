@@ -223,7 +223,9 @@ textarea {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  justify-self: start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
           align-items: baseline;
@@ -661,19 +663,19 @@ textarea {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 .advantage__item {
   min-width: 270px;
 }
 
-.advantage__item :not(:last-child) {
+.advantage__item:not(:last-child) {
   margin-right: 30px;
 }
 

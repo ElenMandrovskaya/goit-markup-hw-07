@@ -68,9 +68,7 @@
   margin-bottom: 30px;
 }
 .checkbox__label {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flex(center, center);
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
