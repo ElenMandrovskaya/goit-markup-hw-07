@@ -2,8 +2,9 @@
 @import './utils/visually-hidden';
 @import './base/base';
 @import './components/logo';
+@import './utils/mixins';
+@import './components/button';
 @import './components/page-header';
 @import './components/page-footer';
-@import './components/button';
 @import './components/portfolio-filter';
 @import './components/portfolio-projects';

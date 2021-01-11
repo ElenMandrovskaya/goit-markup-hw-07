@@ -84,6 +84,16 @@ textarea {
   padding-bottom: 94px;
 }
 
+.section-title {
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
 .logo {
   font-family: var(--secondary-font-family);
   color: #000000;
@@ -371,9 +381,7 @@ textarea {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.hero__btn,
-.subscription__btn,
-.modal-form__btn {
+.main__btn {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -719,16 +727,6 @@ textarea {
           justify-content: space-between;
 }
 
-.services__title {
-  margin-bottom: 50px;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--primary-text-color);
-}
-
 .services__item {
   position: relative;
 }
@@ -772,16 +770,6 @@ textarea {
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-}
-
-.team__title {
-  margin-bottom: 50px;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--primary-text-color);
 }
 
 .team-item__info {
@@ -859,16 +847,6 @@ textarea {
 
 .clients__item:not(:last-child) {
   margin-right: 30px;
-}
-
-.clients__title {
-  margin-bottom: 50px;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--primary-text-color);
 }
 
 .clients__link {

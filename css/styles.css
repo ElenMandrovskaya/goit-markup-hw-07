@@ -189,9 +189,9 @@ textarea {
   color: var(--reserve-text-color);
   margin-bottom: 30px;
 } */
-/* .hero__btn,
-.subscription__btn,
-.modal-form__btn {
+/* .main__btn,
+.main__btn,
+.main__btn {
   display: block;
   margin: 0 auto;
   padding: 10px 0;
@@ -256,7 +256,7 @@ textarea {
   display: flex;
   justify-content: space-between;
 }
-.services__title {
+.section-title{
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
@@ -303,7 +303,7 @@ textarea {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-.team__title {
+.section-title{
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
@@ -365,7 +365,7 @@ textarea {
 .clients__item:not(:last-child) {
   margin-right: 30px;
 }
-.clients__title {
+.section-title {
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
@@ -472,7 +472,7 @@ textarea {
   margin-left: 93px;
   width: 570px;
 }
-.subscription__btn {
+.main__btn {
   display: flex;
   justify-content: center;
   align-items: center;

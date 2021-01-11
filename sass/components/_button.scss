@@ -1,6 +1,4 @@
-.hero__btn,
-.subscription__btn,
-.modal-form__btn {
+.main__btn {
   @include flex(center, center);
   margin: 0 auto;
   padding: 10px 0;
